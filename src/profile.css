@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side {
+  width: 20px;
+  background-color: rgb(63, 16, 191);
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.profile-img img {
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.profile {
+  padding: 100px;
+  flex-grow: 1;
+}
+
+.profile h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.profile h3 {
+  margin-top: 0;
+  color: rgb(63, 16, 191);
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.phone span,
+.email span {
+  color: rgb(63, 16, 191);
+}
+
+.download {
+  margin-top: 25px;
+  background-color: rgb(63, 16, 191);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.download:hover {
+  opacity: 0.9;
+}
